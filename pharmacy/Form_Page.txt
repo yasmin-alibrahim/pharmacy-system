@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Modify Product</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+<section class="sec1"><h1>Modify Product</h1></section>
+
+
+<div>
+
+<section class="edit-from-container">
+  
+
+<form action="" method="post">
+
+<img src="ARGAN_OIL.jpeg" height="200" alt="">
+<input type="hidden" name="update_p_id" value="1">
+<input type="text" class="box" name="update_p_name" value="Argan Oil">
+<input type="number" min="0" class="box" required name="update_p_price" value="12$">
+<input type="file" class="box" required name="update_p_image" accept="image/jpeg, image/png, image/jpg">
+<input type="submit" value="Update the Product" name="update_product" class="btn">
+  </button>
+
+</form>
+</section>
+</div>
+
+<body>
+</html>
